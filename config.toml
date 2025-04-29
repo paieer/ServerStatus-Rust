@@ -10,7 +10,7 @@ grpc_tls = 0
 tls_dir = "tls"
 
 # 管理员账号,不设置默认随机生成，用于查看 /detail, /map
-jwt_secret = "vYr3aPSSi+T4sL1I+6Jw7A==" # 修改这个, 使用 openssl rand -base64 16 生成 secret
+jwt_secret = "" # 修改这个, 使用 openssl rand -base64 16 生成 secret
 admin_user = "admin"
 admin_pass = ""
 
